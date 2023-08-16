@@ -12,7 +12,7 @@ def weather():
     if request.method == 'POST':
         city = request.form['city']
     else:
-        city = 'zagreb'
+        city = 'split'
 
     api_key = '2fa9bcc8d9bfb5c36d342ddffb0114f1'
 
