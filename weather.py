@@ -14,7 +14,7 @@ def weather():
     else:
         city = 'split'
 
-    api_key = '2fa9bcc8d9bfb5c36d342ddffb0114f1'
+    api_key = 'xxx'
 
     # source contain json data from api
     source = urllib.request.urlopen(
